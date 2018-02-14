@@ -1,0 +1,147 @@
+/* General Elements*/
+body{
+	background-image: url("../images/wallmart.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-origin: center center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.1;
+	font-kerning: auto;
+	overflow: hidden;
+	transition: 3s all ease;
+}
+div{
+	border: solid 2px #008cff;
+	border-radius: 15px;
+	padding: 10px;
+	text-align: center;
+}
+h1, span{
+	font-weight: bold;
+}
+ol{
+	list-style: none; 
+}
+ul {
+	list-style: none;
+	text-indent: 20px;
+}
+div.row {
+	margin: 0 auto;
+	width: 50%;
+	display: block;
+	position: relative;
+	background-color: #fff;
+	border-bottom: 0;
+}
+div.row:first-of-type {
+	margin-top: 20px;
+}
+div.row:nth-of-type(1),
+div.row:nth-of-type(2), 
+div.row:nth-of-type(3){
+	margin-bottom: 10px;
+}
+div.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  border: 0!important;
+  padding: 0!important;
+}
+.header h1 {
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+	color: #fff;
+	text-shadow: rgb(255, 255, 255) 0 3px 20px;
+	animation: title 10s ease infinite alternate-reverse;
+}
+@keyframes title {
+	0% {color:rgb(236, 89, 89);}
+	25% {color:rgb(114, 220, 255);}
+	50% {color:rgb(196, 196, 255);}
+	75% {color:rgb(255, 213, 0);}
+	100% {color:rgb(240, 95, 95);}
+}
+.numberToMatch h2 {
+	line-height: 2;
+	font-size: 2em;
+}
+#nnx {
+	font-size: 0.65em;
+}
+#nnjx {
+	font-size: 0.8;
+}
+
+div.header, div.items{
+	background-color: #0072ce;
+	border-radius: 15px;
+}
+div.items {
+	border-bottom: 0;
+	padding: 0;
+	display:block;
+	text-align: center;
+	margin-bottom: 10px;
+}
+div.items img {
+	display: inline-block;
+	margin: 0 auto;
+	height: 48px;
+	width: 48px;
+	opacity: 1.0;
+}
+div.items img:hover {
+	opacity: 0.8;
+	transform: scale(110%);
+}
+.numberToMatch{
+	float: left;
+	width: 48%;
+}
+.winsAndLosses {
+	float: right;
+	width: 48%;
+}
+	.winsAndLosses h2 {
+		text-align: center;
+		font-size: 1.2rem;
+	}
+.userTotal{
+	width: 100%;
+	height: 60px;
+	
+}
+	.userTotal h2 {
+		text-align: center;
+	}
+.items{
+	clear: both;
+}
+h1 {
+	border-bottom: 0 !important;
+}
+
+#numberLosses {
+	color: rgb(246, 122, 122);
+}
+
+.itemImage{
+	height: 50px;
+	/* margin: 52px; */
+}
+/* #inst_items > li:nth-of-type(0) {
+
+}
+#inst_items > li:nth-of-type(1) {
+
+}
+#inst_items > li:nth-of-type(2) {
+
+}
+#inst_items > li:nth-of-type(3) {
+
+} */
